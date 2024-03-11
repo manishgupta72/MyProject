@@ -1,0 +1,40 @@
+.container
+{    display: flex;
+    justify-content:space-between;
+    padding: 4.2rem 2.2rem;
+    
+}
+.header
+{
+    display: flex;
+    justify-content:space-between;
+    padding: 1rem 2rem;
+    background-color: #f5f5fc;
+   
+}
+ul
+{
+   
+    display: flex;
+    gap: 3rem;
+   
+}
+ul li
+{
+    color: black !important;
+    
+}
+@media (width <= 998px) {
+    ul
+    {
+        margin-left: 20px;
+        gap:1rem;
+    }
+}
+
+@media (width <= 798px) {
+    ul
+    {
+        gap:1rem;
+    }
+}
