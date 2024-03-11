@@ -31,7 +31,7 @@ app.use("/api/admin", adminRoute);
 
 app.use(errorMiddleware);
 // step2 hosting
-const PORT=3001;
+const PORT=process.env.PORT;
 
 connectToDB().then(() => {
   app.listen(PORT, () => {
