@@ -14,7 +14,7 @@ var MongoClient = require("mongodb").MongoClient;
 
 
 app.use(cors({
-  origin:[],
+  origin:["https://at-frontend.vercel.app"],
   methods:["POST","GET","PUT","PATCH","DELETE"],
   credentials:true,
 }));
